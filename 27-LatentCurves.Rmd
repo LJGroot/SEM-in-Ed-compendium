@@ -112,7 +112,7 @@ $$\mathbf{\eta}_i=\beta_{0,i} \ \ , \ \ \alpha=\gamma_0 \ \ , \ \ \zeta_i=u_i   
 
 Note that the factor-loading matrix is merely a vector of ones, filling the role of the constant in a regression model.  That is, a vector of ones is treated as a predictor, and its "slope" is the regression model's intercept.  The role of factor loadings in a LGCM is counter-intuitive because in most SEMs, we think of them as slopes.  Instead, the loadings of a growth factor instead map onto observed variables in a multilevel regression, and random coefficients ($\beta_{0,i}$) are represented by the latent variables (growth factors: $\mathbf{\eta}_i$).  
 
-```{r label="fig27-1", engine='tikz', fig.ext='svg', echo = FALSE, fig.cap="Random intercept model for alcohol-use data from Duncan and Duncan (1996)."}
+```{r label="fig27-1", engine='tikz', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', echo = FALSE, fig.cap="Random intercept model for alcohol-use data from Duncan and Duncan (1996)."}
 
 \usetikzlibrary{shapes}
 
